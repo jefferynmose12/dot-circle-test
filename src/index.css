@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  padding: 0;
+  margin: ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hold {
+  background: linear-gradient(to right, #0052CC, #00C7F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hold-2 {
+  background: linear-gradient(to right, purple, #00C7F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hold-3 {
+  background: linear-gradient(to right, orange, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#rect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 30px;
+  z-index: 0
+}
+
+#comment {
+  box-shadow: -0.3px 0.2px #fff;
+}
+
+#card-1 {
+  box-shadow: 0.2px 0.2px #fff;
+  transition-delay: 0.5s;
+}
+#card-1:hover {
+  transition-delay: 0.5s;
+  box-shadow: 0.2px 0.2px #1DA99E;
+}
+#card-2 {
+  transition-delay: 0.5s;
+  box-shadow: -0.2px 0.2px #fff;
+}
+#card-2:hover {
+  transition-delay: 0.5s;
+  box-shadow: -0.2px 0.2px yellow;
+}
+#card-3 {
+  transition-delay: 0.5s;
+  box-shadow: 0.2px -0.2px #fff;
+}
+#card-3:hover {
+  transition-delay: 0.5s;
+  box-shadow: 0.2px -0.2px green;
+}
+#card-4 {
+  transition-delay: 0.5s;
+  box-shadow: -0.2px -0.2px #fff;
+}
+#card-4:hover {
+  transition-delay: 0.5s;
+  box-shadow: -0.2px -0.2px blue;
+}
+
+#service-1:hover img {
+  transition-delay: 0.3s;
+  transform: scale(1.5)
+}
+
+#detail {
+  background-image: linear-gradient(to top left, rgba(255,0,0,0),  rgba(74, 74, 74, 0.40));
+}
+
+#service-1:hover #detail {
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), #1DA99E);
+  transition-delay: 0.5s;
+}
+
+#service-2:hover img {
+  transition-delay: 0.3s;
+  transform: scale(1.5)
+}
+
+#service-2:hover #detail {
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), #1DA99E);
+  transition-delay: 0.5s;
+}
+
+#service-3:hover img {
+  transition-delay: 0.3s;
+  transform: scale(1.5)
+}
+
+#service-3:hover #detail {
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), #1DA99E);
+  transition-delay: 0.5s;
+}
+
+#service-4:hover img {
+  transition-delay: 0.3s;
+  transform: scale(1.5)
+}
+
+#service-4:hover #detail {
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), #1DA99E);
+  transition-delay: 0.5s;
+}
+
+
